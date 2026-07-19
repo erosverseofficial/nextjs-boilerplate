@@ -39,6 +39,9 @@ export default function Footer() {
               <Link href="/gallery" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
                 Events Gallery
               </Link>
+              <Link href="/contact" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
+                Contact Us
+              </Link>
             </nav>
 
             {/* Social links */}
