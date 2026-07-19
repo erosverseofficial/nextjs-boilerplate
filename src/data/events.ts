@@ -49,6 +49,7 @@ export const events: ErosEvent[] = [
       'diwali-2025-7.jpg',
       'diwali-2025-8.jpg',
       'diwali-2025-9.jpg',
+      'diwali-2025-10.jpg',
     ],
   },
   {

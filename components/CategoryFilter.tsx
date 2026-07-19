@@ -16,15 +16,11 @@ export default function CategoryFilter({
           key={cat}
           onClick={() => onChange(cat)}
           aria-pressed={active === cat}
-          className="px-4 py-2 rounded-full text-sm font-semibold transition-all"
+          className="px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200"
           style={
             active === cat
-              ? {
-                  background: "#E83E8C",
-                  color: "#fff",
-                  boxShadow: "0 1px 4px rgba(232,62,140,0.35)",
-                }
-              : { background: "#F3F4F6", color: "#4B5563" }
+              ? { background: "#E83E8C", color: "#fff", boxShadow: "0 0 16px rgba(232,62,140,0.45)" }
+              : { background: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.65)", border: "1px solid rgba(255,255,255,0.12)" }
           }
         >
           {cat}
