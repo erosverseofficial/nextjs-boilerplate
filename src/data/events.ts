@@ -31,6 +31,27 @@ export interface ErosEvent {
 
 export const events: ErosEvent[] = [
   {
+    id: 'diwali-2025',
+    title: 'Diwali Celebration 2025',
+    date: '2025-10-19',
+    category: 'Cultural',
+    description:
+      'Eros Sampoornam came alive with the warm glow of diyas, vibrant traditional attire, and the joyful spirit of Diwali on 19th October 2025. Residents of all ages — from little ones making greeting cards to families posing at the stunning "Shubh Deepawali" backdrop — made this evening of lights truly unforgettable.',
+    cover: 'diwali-2025-cover.jpg',
+    images: [
+      'diwali-2025-cover.jpg',
+      'diwali-2025-1.jpg',
+      'diwali-2025-2.jpg',
+      'diwali-2025-3.jpg',
+      'diwali-2025-4.jpg',
+      'diwali-2025-5.jpg',
+      'diwali-2025-6.jpg',
+      'diwali-2025-7.jpg',
+      'diwali-2025-8.jpg',
+      'diwali-2025-9.jpg',
+    ],
+  },
+  {
     id: 'diwali-2024',
     title: 'Diwali Celebration 2024',
     date: '2024-11-01',
