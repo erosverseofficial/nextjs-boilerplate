@@ -2,9 +2,9 @@ const pillars = [
   {
     icon: "🤝",
     title: "Connect",
-    accent: "#7C3AED",
-    bg: "#F5F3FF",
-    border: "#DDD6FE",
+    accent: "#E83E8C",
+    bg: "#FFF0F6",
+    border: "#FBCFE8",
     desc: "Bringing every resident together across generations, interests, and backgrounds — building bonds that make Sampoornam feel like home.",
   },
   {
@@ -18,9 +18,9 @@ const pillars = [
   {
     icon: "🎉",
     title: "Celebrate",
-    accent: "#E11D48",
-    bg: "#FFF1F2",
-    border: "#FECDD3",
+    accent: "#1D4EDB",
+    bg: "#EFF6FF",
+    border: "#BFDBFE",
     desc: "Honouring our festivals, milestones, and everyday joys with events that leave memories for a lifetime.",
   },
 ];
@@ -33,13 +33,13 @@ export default function BrandValues() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p
             className="text-xs font-bold tracking-widest uppercase mb-3"
-            style={{ color: "#7C3AED" }}
+            style={{ color: "#E83E8C" }}
           >
             Who We Are
           </p>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-snug mb-6">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-snug mb-6" style={{ fontFamily: "var(--font-playfair), serif" }}>
             More than a community —{" "}
-            <span style={{ color: "#7C3AED" }}>a family</span>
+            <span style={{ color: "#E83E8C" }}>a family</span>
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             <strong className="text-gray-800">ErosVerse</strong> is the cultural
@@ -57,11 +57,11 @@ export default function BrandValues() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <p
             className="text-xs font-bold tracking-widest uppercase text-center mb-3"
-            style={{ color: "#7C3AED" }}
+            style={{ color: "#E83E8C" }}
           >
             Our Pillars
           </p>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 text-center mb-14" style={{ fontFamily: "var(--font-playfair), serif" }}>
             The Three C&apos;s
           </h2>
 
@@ -87,17 +87,17 @@ export default function BrandValues() {
       <section
         className="py-20 text-white"
         style={{
-          background: "linear-gradient(135deg, #5B21B6 0%, #4338CA 100%)",
+          background: "linear-gradient(135deg, #1D4EDB 0%, #7B2CBF 50%, #E83E8C 100%)",
         }}
       >
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p
             className="text-xs font-bold tracking-widest uppercase mb-4"
-            style={{ color: "#FCD34D" }}
+            style={{ color: "#D4AF37" }}
           >
             Our Vision
           </p>
-          <blockquote className="text-2xl sm:text-3xl font-bold leading-snug text-white mb-6">
+          <blockquote className="text-2xl sm:text-3xl font-bold leading-snug text-white mb-6" style={{ fontFamily: "var(--font-playfair), serif", fontStyle: "italic" }}>
             &ldquo;A Sampoornam where every resident feels seen, heard, and
             celebrated — every single day.&rdquo;
           </blockquote>

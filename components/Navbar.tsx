@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "./Logo";
 
 const SOCIAL_LINKS = [
   {
@@ -84,9 +83,12 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        {/* Logo */}
-        <Link href="/" className="hover:opacity-80 transition-opacity">
-          <Logo size="sm" />
+        {/* Text wordmark */}
+        <Link href="/" className="hover:opacity-80 transition-opacity select-none">
+          <span className="text-xl font-black tracking-tight">
+            <span style={{ color: "#E83E8C" }}>Eros</span>
+            <span style={{ color: "#1D4EDB" }}>Verse</span>
+          </span>
         </Link>
 
         {/* Desktop links */}
@@ -97,8 +99,8 @@ export default function Navbar() {
               href={href}
               className={`text-sm font-medium transition-colors ${
                 isActive(href)
-                  ? "text-violet-600 border-b-2 border-violet-500 pb-0.5"
-                  : "text-gray-600 hover:text-violet-600"
+                  ? "text-pink-600 border-b-2 border-pink-500 pb-0.5"
+                  : "text-gray-600 hover:text-pink-600"
               }`}
             >
               {label}
@@ -115,7 +117,7 @@ export default function Navbar() {
           <Link
             href="/gallery"
             className="px-4 py-2 rounded-full text-white text-sm font-semibold transition-colors hover:opacity-90"
-            style={{ background: "#7C3AED" }}
+            style={{ background: "#E83E8C" }}
           >
             See All Events
           </Link>
@@ -149,7 +151,7 @@ export default function Navbar() {
               href={href}
               onClick={() => setMenuOpen(false)}
               className={`text-sm font-medium py-1 transition-colors ${
-                isActive(href) ? "text-violet-600" : "text-gray-700"
+                isActive(href) ? "text-pink-600" : "text-gray-700"
               }`}
             >
               {label}

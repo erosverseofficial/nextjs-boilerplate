@@ -20,9 +20,9 @@ export default function CategoryFilter({
           style={
             active === cat
               ? {
-                  background: "#7C3AED",
+                  background: "#E83E8C",
                   color: "#fff",
-                  boxShadow: "0 1px 4px rgba(124,58,237,0.35)",
+                  boxShadow: "0 1px 4px rgba(232,62,140,0.35)",
                 }
               : { background: "#F3F4F6", color: "#4B5563" }
           }

@@ -3,17 +3,17 @@ import type { ErosEvent } from "@/src/data/events";
 
 // Gradient shown behind the cover image (visible before load / if image missing)
 const GRADIENTS: Record<string, string> = {
-  Cultural: "linear-gradient(135deg, #8B5CF6, #6366F1)",
+  Cultural: "linear-gradient(135deg, #E83E8C, #7B2CBF)",
   Sports:   "linear-gradient(135deg, #10B981, #0D9488)",
-  Kids:     "linear-gradient(135deg, #F472B6, #FB7185)",
-  Social:   "linear-gradient(135deg, #FBBF24, #F97316)",
+  Kids:     "linear-gradient(135deg, #FF914D, #E83E8C)",
+  Social:   "linear-gradient(135deg, #D4AF37, #FF914D)",
 };
 
 const BADGES: Record<string, { bg: string; color: string }> = {
-  Cultural: { bg: "#EDE9FE", color: "#6D28D9" },
+  Cultural: { bg: "#FFF0F6", color: "#9D174D" },
   Sports:   { bg: "#D1FAE5", color: "#065F46" },
-  Kids:     { bg: "#FCE7F3", color: "#9D174D" },
-  Social:   { bg: "#FEF3C7", color: "#92400E" },
+  Kids:     { bg: "#FFF7ED", color: "#C2410C" },
+  Social:   { bg: "#FEFCE8", color: "#854D0E" },
 };
 
 function formatDate(iso: string) {
@@ -80,7 +80,7 @@ export default function EventCard({ event }: { event: ErosEvent }) {
         </div>
 
         <h3
-          className="font-bold text-gray-900 text-lg mb-2 leading-snug clamp-2 group-hover:text-violet-700 transition-colors"
+          className="font-bold text-gray-900 text-lg mb-2 leading-snug clamp-2 group-hover:text-pink-600 transition-colors"
         >
           {title}
         </h3>
@@ -91,7 +91,7 @@ export default function EventCard({ event }: { event: ErosEvent }) {
 
         <div
           className="mt-4 flex items-center gap-1 text-sm font-semibold transition-all group-hover:gap-2"
-          style={{ color: "#7C3AED" }}
+          style={{ color: "#E83E8C" }}
         >
           View Gallery
           <svg

@@ -12,13 +12,13 @@ export default function Footer() {
           <div>
             <div className="flex flex-col leading-none select-none mb-3">
               <span className="text-2xl font-black tracking-tight">
-                <span style={{ color: "#A78BFA" }}>Eros</span>
-                <span style={{ color: "#FCD34D" }}>Verse</span>
+                <span style={{ color: "#F9A8D4" }}>Eros</span>
+                <span style={{ color: "#93C5FD" }}>Verse</span>
               </span>
               <span className="flex gap-1.5 mt-1.5">
-                <span style={{ width: 8, height: 8, background: "#A78BFA", borderRadius: "50%", display: "inline-block" }} />
-                <span style={{ width: 8, height: 8, background: "#FCD34D", borderRadius: "50%", display: "inline-block" }} />
-                <span style={{ width: 8, height: 8, background: "#FB7185", borderRadius: "50%", display: "inline-block" }} />
+                <span style={{ width: 8, height: 8, background: "#F9A8D4", borderRadius: "50%", display: "inline-block" }} />
+                <span style={{ width: 8, height: 8, background: "#D4AF37", borderRadius: "50%", display: "inline-block" }} />
+                <span style={{ width: 8, height: 8, background: "#93C5FD", borderRadius: "50%", display: "inline-block" }} />
               </span>
             </div>
             <p className="text-sm max-w-xs" style={{ color: "#9CA3AF" }}>

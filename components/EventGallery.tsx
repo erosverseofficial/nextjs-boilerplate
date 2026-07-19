@@ -78,7 +78,7 @@ export default function EventGallery({ event }: { event: ErosEvent }) {
             <button
               key={img}
               onClick={() => setLightboxIndex(i)}
-              className="group relative overflow-hidden rounded-xl bg-gray-200 focus:outline-none focus:ring-2 focus:ring-violet-500"
+              className="group relative overflow-hidden rounded-xl bg-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-500"
               style={{ aspectRatio: "1", background: gradient }}
               aria-label={`Open photo ${i + 1}`}
             >
