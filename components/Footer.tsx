@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -26,15 +27,23 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Nav links */}
-          <nav className="flex flex-col gap-2.5 text-sm" aria-label="Footer navigation">
-            <Link href="/" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
-              Home
-            </Link>
-            <Link href="/gallery" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
-              Events Gallery
-            </Link>
-          </nav>
+          <div className="flex flex-col gap-8 sm:flex-row sm:gap-16">
+            {/* Nav links */}
+            <nav className="flex flex-col gap-2.5 text-sm" aria-label="Footer navigation">
+              <p className="text-xs font-semibold uppercase tracking-widest mb-1" style={{ color: "#6B7280" }}>
+                Navigate
+              </p>
+              <Link href="/" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
+                Home
+              </Link>
+              <Link href="/gallery" className="transition-colors hover:text-white" style={{ color: "#9CA3AF" }}>
+                Events Gallery
+              </Link>
+            </nav>
+
+            {/* Social links */}
+            <SocialLinks />
+          </div>
         </div>
 
         <div
@@ -47,3 +56,4 @@ export default function Footer() {
     </footer>
   );
 }
+
